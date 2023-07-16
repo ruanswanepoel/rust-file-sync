@@ -1,0 +1,13 @@
+[package]
+name = "file-sync-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "3.2.22", features = ["derive"] }
+rocket = "=0.5.0-rc.3"
+oauth2 = "4.4.1"
+open = "5.0.0"
